@@ -1,6 +1,9 @@
 
 # Open Color MATLAB
 
+[![View Open-Color-MATLAB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/180594-open-color-matlab)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=cuixing158/Open-Color-MATLAB&file=README.mlx)
+
 This repository provides minimalist RGB color definitions from [Open Color](https://yeun.github.io/open-color/), making it easy to use color themes when plotting graphics in MATLAB.
 
 本仓库提供来自[Open color](https://yeun.github.io/open-color/) 的简约 RGB 颜色定义，方便在MATLAB中使用绘制图形颜色主题。
