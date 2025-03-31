@@ -8,14 +8,37 @@ This repository provides minimalist RGB color definitions from [Open Color](http
 
 本仓库提供来自[Open color](https://yeun.github.io/open-color/) 的简约 RGB 颜色定义，方便在MATLAB中使用绘制图形颜色主题。
 
+Happy plotting! :tada::tada::tada:
+
 ## Usage
 
 Directly load the 'colormapData.mat' color theme data into your MATLAB workspace.
 
 直接在你MATLAB工作空间中加载“colormapData.mat”颜色主题数据。
 
-```
+```matlab
 load colormapData.mat
+```
+
+> [!NOTE]
+> This contains a dictionary that includes all the color theme data, where each color is represented by a 256x3 [color mapping array](https://www.mathworks.com/help/matlab/ref/colormap.html#burd3gs-5). The data range is [0,1].
+
+```text
+d =
+  dictionary (string --> cell) with 13 entries:
+    "Gray"   --> {256×3 double}
+    "Red"    --> {256×3 double}
+    "Pink"   --> {256×3 double}
+    "Grape"  --> {256×3 double}
+    "Violet" --> {256×3 double}
+    "Indigo" --> {256×3 double}
+    "Blue"   --> {256×3 double}
+    "Cyan"   --> {256×3 double}
+    "Teal"   --> {256×3 double}
+    "Green"  --> {256×3 double}
+    "Lime"   --> {256×3 double}
+    "Yellow" --> {256×3 double}
+    "Orange" --> {256×3 double}
 ```
 
 ## Requirements
